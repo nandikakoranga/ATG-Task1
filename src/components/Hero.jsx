@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section className="Hero-section">
-            <div className="hero position-relative">
+            <div className="hero position-relative" style={{ backgroundImage: `url(/images/rect1.png)` }}>
                 <div className="hei-dis" style={{ position: "absolute" }}>
                 </div>
                 <div className="position-absolute hei-dis text-start pb5">
